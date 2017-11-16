@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafahuelin/natour-advanced-css-and-sass.git"
+  },
+  "author": "Rafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafahuelin/natour-advanced-css-and-sass/issues"
+  },
+  "homepage": "https://github.com/rafahuelin/natour-advanced-css-and-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.6.1",
+    "nodemon": "^1.12.1"
+  }
+}
