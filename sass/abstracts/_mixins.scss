@@ -5,3 +5,10 @@
         clear: both;
     }
 }
+
+@mixin pos-hv ($x, $y) {
+    position: absolute;
+    top: $y + %;
+    left: $x + %;
+    transform: translate(-50%, -50%);
+}
