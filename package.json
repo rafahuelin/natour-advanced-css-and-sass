@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/rafahuelin/natour-advanced-css-and-sass#readme",
   "devDependencies": {
-    "node-sass": "^4.6.1",
-    "nodemon": "^1.12.1"
-  }
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {}
 }
