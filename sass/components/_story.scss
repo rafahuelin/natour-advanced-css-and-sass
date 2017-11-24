@@ -26,12 +26,18 @@
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
 
-        clip-path: circle(50% at 50% 50%);
+
         transform: translateX(-3rem) skewX(12deg);
         position: relative;
+        overflow: hidden;
 
         @include respond(phone) {
             transform: translateX(-3rem) skewX(0);
+        }
+
+        @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+            -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
         }
     }
 
